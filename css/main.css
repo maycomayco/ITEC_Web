@@ -1,0 +1,408 @@
+.titulo{
+	font-size: 22px;
+}
+
+.subtitulo{
+
+  font-size: 20px;
+  text-align: 
+}
+
+
+body{
+	padding-top: 0px;
+    background-image:url('../img/rayas_fondo.png');
+    font-family: 'tahoma, calibri';
+    background-color: #fa984f;
+    text-shadow: 0px 1px 0px #ebebeb;
+}
+
+.naranja{
+	height:30px;
+	background-color: #fae1c6;
+}
+
+.limpiar{
+	clear:both;
+}
+
+.computacion-fondo{
+	background-color: #67A9DA;
+	color:#fff !important;
+}
+.computacion-texto{
+	color: #235AA6;
+}
+.turismo-fondo{
+	background-color: #FFE66A;
+	color:#000 !important;
+}
+.turismo-texto{
+	color: #F5CA00;
+}
+.electro-fondo{
+	background-color: #91DD8E;
+	color:#000 !important;
+}
+.electro-texto{
+	color: #00783B;
+}
+
+.dropdown-menu li>a:hover, .dropdown-menu li>a:focus, .dropdown-submenu:hover>a{
+  background: #ff9f57 !important;
+}
+
+  color: #000000 !important;
+}
+
+/*-----------------ESTRUCTURA PRINCIPAL--------------------------*/
+.banner{
+	width: 100% !important;
+	text-align: center !important;
+	padding: 10px ;
+}
+.post{
+	
+	text-align: center;
+	
+	padding: 10px;
+	margin:0px 20px -50px 20px;
+	width: 95%;
+}
+.titu-post{
+	width: 600PX;
+	border: 2px solid #E5A475;
+	position: relative;
+	float:right;
+}
+#polaroid p {
+	font-size: 12px;
+	line-height: 50px;
+	text-align: justify;
+
+	padding: 10px;
+	margin-top: 10px;
+	
+}
+
+.panel{
+	margin:100px auto 0px auto;
+	background-color: rgb(255, 255, 255);
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	box-shadow: #B1B1B1 0 0 7px;
+	background-repeat: repeat-x;
+}
+
+.espaciadobarra{
+	width: 200px;
+}
+
+.logo{
+		visibility: hidden;
+	}
+
+.cinta{
+		width: 232px;
+		height: 179px;
+		background-image: url('../img/cinta.png');
+		position: absolute;
+		z-index: 9999;
+		visibility: visible;
+        cursor:pointer;
+	}
+
+.dropdown a{
+	padding-top: 15px !important;
+}
+
+
+.modal .modal-body {
+    max-height: 1000px !important;
+    overflow-y: no-display !important;
+    overflow-x: hidden !important;
+}
+
+#contenedorvisor{
+  height: 400px;
+  width: 915px;
+}
+
+
+
+@media (min-width: 1200px) {
+	.panel{
+		background-image:url('../img/panel-fondo.png') ;
+		width: 1200px;
+		
+	}
+	.navbar-inner{
+		height: 50px !important;
+	}
+
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+	.panel{
+		background-image:url('../img/panel-fondo-980.png') ;
+		width: 980px;
+		
+	}
+	.navbar-inner{
+		height: 50px !important;
+	}
+	
+		
+}
+@media (min-width: 767px) and (max-width: 979px) {
+	.panel{
+		background-image:url('../img/panel-fondo-767.png') ;
+	}
+	.logo{
+	margin: 0px auto;
+	width: 157px;
+	height: 110px;
+	background-image: url('../img/logo.png');
+	visibility: visible;
+	}
+	.cinta{
+		visibility: hidden;
+	}
+	.espaciadobarra{
+	width: 0px;
+}
+}
+@media (max-width: 766px) {
+	.panel{
+		background-image:url('../img/panel-fondo-767.png') ;
+	}
+	.logo{
+	margin: 0px auto;
+	width: 157px;
+	height: 110px;
+	background-image: url('../img/logo.png');
+	visibility: visible;
+	}
+	.cinta{
+		visibility: hidden;
+	}
+	.espaciadobarra{
+	width: 0px;
+}
+}
+/*------------------------------------------------------------*/
+figure, figcaption {
+display: block;
+}
+#polaroid{
+width:100%;
+overflow:hidden;
+padding:20px 10px;
+}
+#polaroid figure{
+float:left;
+position:relative;
+width:300px;
+margin:10px 20px;
+padding: 6px 8px 10px 8px;
+-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+background: #eee6d8;
+background: -webkit-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+background: -moz-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+background: -o-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+background: -ms-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+-webkit-transform:rotate(-1deg);
+-moz-transform: rotate(-1deg);
+-o-transform: rotate(-1deg);
+-ms-transform: rotate(-1deg);
+transform: rotate(-1deg);
+-webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
+}
+#poaroid figure:nth-child(even) {
+-webkit-transform:rotate(2deg);
+-moz-transform: rotate(2deg);
+-o-transform: rotate(2deg);
+-ms-transform: rotate(2deg);
+transform: rotate(2deg);
+-webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
+-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+box-shadow: -4px 4px 8px -4px rgba(0, 0, 0, .75);
+}
+#polaroid figure:before {
+content: '';
+display: block;
+position: absolute;
+left:5px;
+top: -15px;
+width: 75px;
+height: 25px;
+background-color: rgba(222,220,198,0.7);
+-webkit-transform: rotate(-12deg);
+-moz-transform: rotate(-12deg);
+-o-transform: rotate(-12deg);
+-ms-transform: rotate(-12deg);
+}
+#polaroid figure:nth-child(even):before {
+left:150px;
+top: -15px;
+width: 55px;
+height: 25px;
+-webkit-transform: rotate(12deg);
+-moz-transform: rotate(12deg);
+-o-transform: rotate(12deg);
+-ms-transform: rotate(12deg);
+}
+#polaroid figcaption{
+text-align:center;
+font-family: 'Reenie Beanie', cursive; /*Reenie Beanie is available through Google Webfonts http://code.google.com/webfonts/specimen/Reenie+Beanie*/
+font-size:15px;
+color:#454f40;
+letter-spacing:0.09em;
+padding-top: 6px;
+}
+/**IE Hacks - see http://css3pie.com/ for more info on how to use CS3Pie and to download the latest version**/
+#polaroid figure{
+-pie-background: linear-gradient(#ede1c9, #fef8e2 20%, #f2ebde 60%);
+behavior: url(assets/pie/PIE.htc);
+position:relative; /*required to make PIE work*/
+padding-top:10px\9;
+padding-right:10px\9;
+}
+
+
+/* CUADROS GOOGLE+ */
+
+.box {
+margin: 20px;
+padding: 15px;
+border: 1px solid #ccc;
+background: #fff;
+border-radius: .3em;
+-webkit-border-radius: .3em;
+-moz-border-radius: .3em;
+-o-border-radius: .3em;
+}
+
+.inst{
+  border-top: 5px solid #D26311;
+}
+
+.analista{
+  border-top: 5px solid #235AA6;
+}
+
+.electro{
+  border-top: 5px solid #00783B;
+}
+
+.turismo{
+  border-top: 5px solid #F5CA00;
+}
+
+.cursos{
+  border-top: 5px solid #A60000;
+}
+
+.titulonoticia{
+  font-family: serif;
+  font-size: 18px;
+}
+
+.contnoticia{
+  font-family: serif;
+  font-size: 14px;
+  text-align: justify;
+}
+
+/* FOOTER STATIC */
+
+#footer {
+   position:fixed;
+   right:12px;
+   text-align: center;
+   padding-top: 5px;
+   bottom:0px;
+   height:28px;
+   width:9%;
+   background: #D26311;
+   border-top: 1px solid #FFFFFF;
+   border-left: 1px solid #FFFFFF;
+   border-right: 1px solid #FFFFFF;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+}
+
+.feed{
+margin-top: 4px!important;
+margin-right: 5px !important;
+
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+
+/* MULTIPLES PAGINAS */
+
+          ul{
+           list-style:none;
+          }
+
+
+          ul.simplePagerNav li{
+              display:block;
+              float: left;
+              padding: 8px;
+              margin-bottom: 10px;
+          }
+
+          ul.simplePagerNav li a{
+              text-decoration: none;
+              margin-left: 12%;
+          }
+
+          li.currentPage {
+          	background: red;
+            background: #D26311;
+          }
+
+          .simplePagerNav{
+            margin-left: 8%;
+          }
+
+          ul.simplePagerNav li.currentPage a {
+          	color: #fff;
+          }
+
+          table.pageme {
+              border-collapse: collapse;
+              border: 1px solid #ccc;
+          }
+
+          table.pageme td {
+              border-collapse: collapse;
+              border: 1px solid #ccc;
+          }
+
+          ul.paging  li.sticky {
+          	display: block !important
+          }
+
+          .espacio{
+            margin-top:100px;
+          }
+
+          .st-accordion ul li{
+		    height:auto;
+		  }
+
+		  .st-accordion ul li > a span{
+		    visibility:hidden;
+		  }
