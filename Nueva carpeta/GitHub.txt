@@ -1,0 +1,11 @@
+_Base de datos MySQL 
+server itec.org.ar
+user iteco_efi
+clave progamacion3
+base itecorga_efi
+
+EJEMPLO EN VISUAL BASIC CON MySQL
+
+oledbconnection = mysqlconnection
+oledbcommand = mysqlcommand
+oledbparameter = mysqlparameter
